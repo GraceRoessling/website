@@ -1,0 +1,33 @@
+# Replace this with the site's final URL before publishing.
+baseURL = 'https://example.org/'
+locale = 'en-US'
+title = 'Personal Website'
+disableKinds = ['taxonomy', 'term']
+
+[params]
+  description = 'Research, essays, career, and a personal wiki.'
+
+[[menus.main]]
+  name = 'Home'
+  pageRef = '/'
+  weight = 10
+
+[[menus.main]]
+  name = 'Research'
+  pageRef = '/research'
+  weight = 20
+
+[[menus.main]]
+  name = 'Essays'
+  pageRef = '/essays'
+  weight = 30
+
+[[menus.main]]
+  name = 'Career'
+  pageRef = '/career'
+  weight = 40
+
+[[menus.main]]
+  name = 'Wiki'
+  pageRef = '/wiki'
+  weight = 50
